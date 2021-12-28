@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Write CSS code below */
+
+
+.main-content {
+    display: grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    outline: none;
+}
+
+.left-section {
+    background-color: #e6b737;
+
+}
+
+.left-content {
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    /* border: 5px solid white; */
+}
+
+.profile-details {
+    /* background-color: #e6b737; */
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border-radius: 30%;
+    width: 60%;
+    margin: 20px 50px;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 2px;
+}
+
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column
+}
+
+.social-media {}
+
+.fab {
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* a {
+    z-index: 100;
+} */
+
+.personal-details {
+    margin-top: 10px;
+}
+
+.fab {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.fas {
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.text {
+    display: inline-block;
+    font-size: 13px;
+    padding: 8px 10px;
+    font-weight: 400;
+}
+
+
+.skills .skill-title {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    padding: 1rem 0.5rem;
+}
+
+.skill-name {
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+}
+
+
+.right-section {
+    padding: 2rem 3rem;
+    background-color: grey;
+    width: 90%;
+}
+
+.right-title {
+    color: #fff;
+}
+
+.about-me {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-decoration: underline 2px solid;
+    margin-top: 10px;
+}
+
+#education {
+    text-decoration: underline 2px solid;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.bio {
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 300;
+}
+
+#heading {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+
+#details {}
+
+.section-heading {
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+#spe {
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+/* Hover styles
+/* 
+.fa-linkedin:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 71, 141);
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+.fa-github:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+.fa-facebook:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 24, 221);
+    border-radius: 35px;
+    border: 0px solid;
+}
+
+.fa-twitter:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(79, 146, 223);
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+.fa-envelope:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 80, 167);
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+.fa-phone:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 80, 167);
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+.fa-map-marker-alt:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 80, 167);
+    border-radius: 35px;
+    border: 1px solid;
+} */
