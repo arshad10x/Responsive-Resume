@@ -149,7 +149,7 @@
 .right-section {
     padding: 2rem 3rem;
     background-color: grey;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .right-title {
@@ -201,6 +201,18 @@ p {
     padding: 5px;
     margin-bottom: 10px;
 
+}
+
+@media screen and (max-width:630px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:674px) {
+    .main-content {
+        grid-template-columns: repeat (1, 1fr);
+    }
 }
 
 
